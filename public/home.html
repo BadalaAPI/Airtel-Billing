@@ -1,0 +1,64 @@
+<html>
+<head>
+	<script src="js/canvasjs.min.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="controllers/controller.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="col-xs-12 col-sm-10">
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-6 col-sm-6 col-lg-12">
+            <div id="chartContainer" style="height: 250px; width: 100%;">
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-lg-1"></div>
+                    <div class="col-6 col-sm-6 col-lg-3">
+                        <a href="#Users" class="btn btn-sq-lg btn-primary" ng-click="getUserDetails()"   >
+                            <i class="fa fa-user" aria-hidden="true"></i><br/>
+                            <h3>Users:1250</h3> 
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-lg-1"></div>
+                    <div class="col-6 col-sm-6 col-lg-3">
+                        <a href="#Cu" class="btn btn-sq-lg btn-success" ng-click="getCuDetails()">
+                          <i class="fa fa-users" aria-hidden="true"></i><br/>
+                          <h3>Cost Units:25</h3>
+                        </a>
+                    </div>
+                    <div class="col-6 col-sm-6 col-lg-1"></div>
+                    <div class="col-6 col-sm-6 col-lg-3">
+                        <a href="#Home" class="btn btn-sq-lg btn-info">
+                          <i class="fa fa-inr" aria-hidden="true"></i><br/>
+                          <h3>Total Bill:92,23,450</h3>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!--/span-->
+        <div class="col-6 col-sm-6 col-lg-6">
+            <div class="thumbnail tile tile-wide tile-orange">
+                <div id="chartContainer3" style="height: 450px; width: 100%;"></div>
+            </div>
+        </div>
+        <!--/span-->
+        <!--/span-->
+        <div class="col-6 col-sm-6 col-lg-6">
+            <div class="thumbnail tile tile-wide tile-orange">
+                <div id="chartContainer2" style="height: 450px; width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+<!--/row-->
+</div>
+</body>
+</html>
